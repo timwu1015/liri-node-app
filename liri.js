@@ -4,6 +4,7 @@ var axios = require("axios");
 var Spotify = require("node-spotify-api");
 var moment = require("moment");
 var keys = require("./keys");
+var fs = require("fs");
 
 function spotify(song) {
     var spotify = new Spotify(keys.spotify);
@@ -78,6 +79,19 @@ else if(process.argv[2] === "movie-this") {
         movie = movie.replace(/\s/g, "+");
         imdb(movie);
     }
+}
+else if(process.argv[2] === "do-what-it-says") {
+    fs.readFile("random.txt", "utf8", function(error, data) {
+        if (error) {
+          return console.log(error);
+        }
+        // console.log(data);
+
+        var dataArr = data.split(",");
+        // console.log(dataArr);
+        var artist = dataArr[1];
+        spotify(artist);
+      });
 }
 
 
