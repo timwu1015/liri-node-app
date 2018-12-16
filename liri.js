@@ -14,7 +14,7 @@ function spotify(song) {
             return console.log("Error occured: " + err);
         }
     var parse = data.tracks.items;
-    console.log("\nArtist(s): " + parse[0].artists);
+    console.log("\nArtist(s): " + (parse[0].artists)[0].name);
     console.log("Song's Name: " + parse[0].name);
     console.log("Preview: " + parse[0].preview_url);
     console.log("Album: " + parse[0].album.name + "\n")
