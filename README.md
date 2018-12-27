@@ -52,18 +52,18 @@ As the syntax suggests, each commend will trigger specific API request and retur
 
 1. Sample command:  `node liri.js concert-this 'ariana grande'`
         
-        ![ScreenShot](/images/1.png)
+    ![ScreenShot](/images/1.png)
 
 2. Sample command:  `node liri.js spotify-this-song 'In my feelings'`
 
-        Result on terminal: (images/2.png)
+    ![ScreenShot](/images/2.png)
 
 3. Sample command:  `node liri.js movie-this 'the fast and the furious'`
 
-        Result on terminal: (images/3.png)
+    ![ScreenShot](/images/3.png)
         
 4. Sample command:  `node liri.js do-what-it-says`
         
-        Result on terminal: (images/4.png)
+    ![ScreenShot](/images/4.png)
 
 
