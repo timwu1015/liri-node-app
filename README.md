@@ -3,7 +3,7 @@
 
 ### Overview
 
-The LIRI app is command line <node app>, taking in parameters and giving you back data. It works like iPhone's SIRI, but functions as a language interpretation and recognition interface.
+The LIRI app is command line *node app*, taking in parameters and giving you back data. It works like iPhone's SIRI, but functions as a language interpretation and recognition interface.
 
 
 ### User Guide
